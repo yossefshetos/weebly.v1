@@ -1,0 +1,178 @@
+/*
+    0- Navbar
+    1- About Section
+    2- Portfolio Section
+    3- Contact Section
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --mainBlue: #08526D;
+    --mainRed: #EC1C23;
+    --mainGray: #dbd7d4;
+    --secondBlack: #212529;
+}
+
+/* Start NavBar */
+.navbar .navbar-brand {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--mainBlue);
+}
+.navbar .navbar-brand span {
+    color: var(--mainRed);
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    color: var(--mainBlue);
+    transition: all 0.5s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+   color: var(--mainRed);
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--mainRed);
+}
+/* End NavBar */
+
+
+/* Start About */
+.about {
+    padding: 50px 0 0;
+}
+.about .about-content {
+    background: #FFF;
+    margin: 0 auto;
+    min-height: 400px;
+    box-shadow: -1px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all .4s ease-in-out; 
+}
+.about .about-content:hover {
+    box-shadow: -1px 0px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.about .about-desc {
+    padding-top: 65px;
+    padding-right: 40px;
+}
+.about .about-desc h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--mainBlue);
+}
+.about .about-desc h6 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--mainRed);
+    margin-bottom: 30px;
+}
+.about .about-desc p {
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.about .about-desc h4 {
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.about .about-desc h4:last-of-type {
+   margin-bottom: 10px;
+}
+.about .about-desc h4 i {
+    margin-right: 10px;
+    color: var(--mainBlue);
+}
+.about .about-desc .col-xs i {
+    margin-right: 15px;
+    margin-top: 25px;
+    color: #FFF;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+.about .about-desc .col-xs i:hover {
+    opacity: .8;
+}
+.about .about-desc .fa-facebook-f {
+    background: #3b5998;
+}
+.about .about-desc .fa-instagram {
+    background: #405de6;
+}
+.about .about-desc .fa-twitter {
+    background: #1da1f2;
+}
+.about .about-desc .fa-whatsapp {
+    background: #075e54;
+}
+.about .about-content img {
+    width: 100%;
+    border-radius: 15px;
+}
+/* End About */
+
+
+/* Start Skills */
+.skills h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.skills .web-icon {
+    font-size: 28px;
+    font-weight: bold;
+}
+.skills .web-icon .fa-html5 {
+    color: #e34f26;
+}
+.skills .web-icon .fa-css3-alt {
+    color: #002561;
+}
+.skills .web-icon .fa-js {
+    color: #f7df1e;
+}
+.skills .web-icon .fa-bootstrap {
+    color: #533B78;
+}
+.skills .web-icon .fa-sass {
+    color: #C76494;
+}
+.skills .web-icon .fa-react {
+    color: #5ED3F3;
+}
+.skills .web-icon span {
+    display: block;
+    margin-bottom: 30px;
+}
+/* End Skills */
+
+
+/* Start Footer */
+footer {
+    background: var(--secondBlack);
+    color: #FFF;
+    padding: 20px 0;
+}
+/* End Footer */
+
+
+.portfolio .card {
+    margin-bottom: 30px;
+}
+
+/****** MY FRAMEWORK ******/
+.pd-y {
+    padding: 100px 0;
+}

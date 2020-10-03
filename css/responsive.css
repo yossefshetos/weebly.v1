@@ -1,0 +1,38 @@
+@media (max-width: 576px) {
+    /* Start About Responsive */
+.about {
+    padding: 50px 0 0;
+}
+.about .about-content {
+    background: #FFF;
+    margin: 0 auto;
+    min-height: 400px;
+    box-shadow: -1px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all .4s ease-in-out; 
+}
+.about .about-content:hover {
+    box-shadow: -1px 0px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.about .about-desc {
+    padding-top: 65px;
+    padding-right: 40px;
+}
+.about .about-desc h2 {
+    font-size: 30px;
+}
+.about .about-desc h4 {
+    font-size: 18px;
+}
+.about .about-desc h4 i {
+    margin-right: 2px;
+}
+.about .about-desc .col-xs i {
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+}
+/* End About Responsive */
+}
